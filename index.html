@@ -1,14 +1,115 @@
 <!DOCTYPE html>
-<html lang="hu">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+<html lang="hu" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Vízvezeték szerelő weboldal</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/stílus.css">
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/alap.js"></script>
-    <title>Moziműsor</title>
-</head>
-<body>
-    <h1>Cím</h1>
-</body>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="images/logo.png" alt="Logó">
+          <p class="elso-sor">Kiss Sándor</p>
+          <p class="masodik-sor">Vízszerelő Győr</p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Főoldal</a></li>
+            <li><a href="vizszereles.html">Vízszerelés</a></li>
+            <li><a href="bemutatkozas.html">Bemutatkozás</a></li>
+            <li><a href="arajanlat.html">Árajánlat</a></li>
+            <li><a href="kapcsolat.html">Kapcsolat</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div id="main">
+      <section id="nagykep">
+        <div class="container">
+          <div class="doboz">
+            <p class="elso-sor">Vízvezeték szerelőt keres?</p>
+            <p class="masodik-sor">Családi házak vízbekötése akciósan!</p>
+          </div>
+        </div>
+      </section>
+      <section id="elonyeim">
+        <div class="container">
+          <h2>Előnyeim</h2>
+          <div class="ikon ikon-1">
+            <center><img src="images/pipa.png" alt="Ikon"></center>
+            <p>Ingyenes felmérés<br>Győr határain belül</p>
+          </div>
+          <div class="ikon ikon-2">
+            <center><img src="images/jelveny.png" alt="Ikon"></center>
+            <p>1 év garancia<br>a beépített alkatrészekre</p>
+          </div>
+          <div class="ikon ikon-3">
+            <center><img src="images/pajzs.png" alt="Ikon"></center>
+            <p>25 év<br>szakmai tapasztalat</p>
+          </div>
+        </div>
+      </section>
+      <section id="bemutatkozas">
+        <div class="container">
+          <img src="images/profil.jpg" alt="profilkép">
+          <h2>Bemutatkozás</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae eum tempora cum harum libero error modi molestiae corporis, delectus quod voluptatem aliquam vitae minus! Veritatis placeat voluptatum, atque ullam deleniti quo in delectus sint explicabo cupiditate officiis consequatur praesentium reiciendis distinctio et doloremque. Animi dicta non, consequuntur corporis dolorum libero.</p>
+        </div>
+      </section>
+      <section id="szolgaltatasaim">
+        <div class="container">
+          <h2>Szolgáltatásaim</h2>
+          <div class="kerteshazak">
+            <img src="images/haz.jpg" alt="Kertes házak vízbekötése">
+            <h3>Családi házak vízbekötése</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione nam dignissimos ducimus accusantium nihil veniam placeat officiis voluptate nostrum, dolor commodi sunt eius minima ab sint incidunt ipsam veritatis, ea!</p>
+            <p class="gomb"><a href="vizszereles.html">Bővebben...</a></p>
+          </div>
+          <div class="panelhazak">
+            <img src="images/csap.jpg" alt="Panelházak vízbekötése">
+            <h3>Vízvezeték szerelés</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem incidunt dolorum corrupti error iure culpa, ipsam nostrum quaerat doloremque nulla! Illo aut ullam quae placeat dolorem rerum dicta, et pariatur eos? At.</p>
+            <p class="gomb"><a href="vizszereles.html">Bővebben...</a></p>
+          </div>
+        </div>
+      </section>
+      <section id="rolam-mondtak">
+        <div class="container">
+          <h2>Rólam mondták</h2>
+          <div class="velemeny velemeny-1">
+            <img src="images/csalad.png" alt="">
+            <p>
+              <span class="cim">Lorem ipsum dolor sit amet</span><br>consectetur adipisicing elit. Doloremque officiis quam exercitationem perspiciatis aliquam. Porro minima, vitae illo veniam. Molestiae velit, tempore consectetur deserunt, dolorum accusantium perferendis vitae nesciunt et.
+            </p>
+          </div>
+          <div class="velemeny velemeny-2">
+            <img src="images/no.png" alt="">
+            <p>
+              <span class="cim">Lorem ipsum dolor sit amet</span><br>consectetur adipisicing elit. Expedita voluptas, perferendis praesentium. Accusantium, dolores architecto, saepe quas in dolorem unde optio, voluptates tempore ea ducimus.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="call-to-action">
+        <div class="container">
+          <p class="felhivas">Kérjen ingyenes árajánlatot!</p>
+          <p class="gomb"><a href="arajanlat.html">Online ajánlatkérés</a></p>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="copyright">
+          <p>Copyright Minden jog fenntartva <br>Kiss Sándor, Vízszerelő Győr</p>
+        </div>
+        <div class="keszitette">
+          <p>Készítette Kiss Szabolcs és Prekopcsák Réka</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

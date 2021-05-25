@@ -297,6 +297,9 @@ nav ul li a:hover{
 }
 
 footer{
+  width: 100%;
+  position: sticky;
+  bottom: 0px;
   background-color: #4574ac;
   padding: 10px 0;
 }

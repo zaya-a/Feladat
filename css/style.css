@@ -85,8 +85,7 @@ nav ul li a:hover{
 
 #main{
   width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 #nagykep{
@@ -297,9 +296,9 @@ nav ul li a:hover{
 }
 
 footer{
+  margin: 0;
   width: 100%;
-  position: sticky;
-  bottom: 0px;
+  bottom: 0;
   background-color: #4574ac;
   padding: 10px 0;
 }
@@ -363,4 +362,8 @@ footer .keszitette p{
   padding: 0;
   border: 1px solid #4574ac;
   float: left;
+}
+
+#hosszubemutatkozas{
+  font-size: 13pt;
 }

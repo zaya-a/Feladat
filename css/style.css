@@ -447,5 +447,17 @@ label{
 #content-wrap{
   padding-bottom: 40px;
 }
-
-
+#bekuldes, #vissza{
+  width: 100px;
+  height: 30px;
+  margin: 20px auto;
+}
+#bekuldesSzoveg{
+  font-size: 30px;
+  text-align: center;
+}
+#beküldDiv{
+  display: flex;
+  align-items: center;
+  vertical-align: center;
+}

@@ -378,15 +378,25 @@ footer .keszitette p{
 
 #bal{
   float: left;
-  background-image: url("../images/arajanlat.jpg");
   width: 500px;
   height: 333px;
 }
 
 #jobb{
   float: right;
-  background-image: url("../images/hibabejelentes.jpg");
   width: 500px;
   height: 333px;
+}
+#kisszoveg{
+  font-size: 12px;
+  color: gray;
+  margin:10px;
+}
+label{
+  margin:20px
+}
+#phone{
+  margin:0px;
+  margin-left: 20px;
 }
 

@@ -303,8 +303,6 @@ footer{
   bottom: 0;
   background-color: #4574ac;
   padding: 10px 0;
-  position: fixed;
-  bottom: 0;
 }
 
 footer p{
@@ -373,7 +371,7 @@ footer .keszitette p{
 }
 
 #gombok{
-  margin: 100px auto;
+  margin: 150px auto;
 }
 
 #bal{
@@ -398,5 +396,46 @@ label{
 #phone{
   margin:0px;
   margin-left: 20px;
+}
+
+.bfooter{
+  margin: 0;
+  height: 40px;
+  width: 100%;
+  bottom: 0;
+  background-color: #4574ac;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+}
+
+.bfooter p{
+  color: #ffffff;
+}
+
+.bfooter .copyright{
+  float: left;
+}
+
+.bfooter .copyright p{
+  text-align: center;
+  font-size: 10px;
+  line-height: 14px;
+  margin-top: 10px;
+  margin-left: 200px;
+}
+
+.bfooter .keszitette{
+  float: right;
+}
+
+.bfooter .keszitette p{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 10px;
+  line-height: 14px;
+  margin-top: 10px;
+  margin-right: 200px;
 }
 

@@ -9,110 +9,114 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div class="logo">
-          <img src="images/logo.png" alt="Logó">
-          <p class="elso-sor">Tót Sándor</p>
-          <p class="masodik-sor">Vízszerelő Győr</p>
+    <div id="page-container">
+      <div id="content-wrap">
+        <header>
+          <div class="container">
+            <div class="logo">
+              <img src="images/logo.png" alt="Logó">
+              <p class="elso-sor">Tót Sándor</p>
+              <p class="masodik-sor">Vízszerelő Győr</p>
+            </div>
+            <nav>
+              <ul>
+                <li><a href="index.html">Főoldal</a></li>
+                <li><a href="vizszereles.html">Vízszerelés</a></li>
+                <li><a href="bemutatkozas.html">Bemutatkozás</a></li>
+                <li><a href="arajanlat.html">Árajánlat</a></li>
+                <li><a href="kapcsolat.html">Kapcsolat</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+        <div id="main">
+          <section id="nagykep">
+            <div class="container">
+              <div class="doboz">
+                <p class="elso-sor">Vízvezeték szerelőt keres?</p>
+                <p class="masodik-sor">Családi házak vízbekötése akciósan!</p>
+              </div>
+            </div>
+          </section>
+          <section id="elonyeim">
+            <div class="container">
+              <h2>Előnyeim</h2>
+              <div class="ikon ikon-1">
+                <center><img src="images/pipa.png" alt="Ikon"></center>
+                <p>Ingyenes felmérés<br>Győr határain belül</p>
+              </div>
+              <div class="ikon ikon-2">
+                <center><img src="images/jelveny.png" alt="Ikon"></center>
+                <p>1 év garancia<br>a beépített alkatrészekre</p>
+              </div>
+              <div class="ikon ikon-3">
+                <center><img src="images/pajzs.png" alt="Ikon"></center>
+                <p>25 év<br>szakmai tapasztalat</p>
+              </div>
+            </div>
+          </section>
+          <section id="bemutatkozas">
+            <div class="container">
+              <img src="images/profil.jpg" alt="profilkép">
+              <h2>Bemutatkozás</h2>
+              <p>Tót Sándor vállalkozó vagyok.
+                Elsősorban lakáson belüli javítási, szerelési és karbantartási munkákat, illetve felújítási és kivitelezést is vállalok vízszerelés témakörben, Győr és környékén.
+                Több mint 25 éve gépészeti tapasztalattal kiváló eszközparkkal, magasan kvalifikált munkaerőként állok rendelkezésére
+                Jelenleg is számos biztosító társaság ügyfeleinek vészelhárítását végzem, mely megfelelő referenciát jelent leendő partnereim számára az épületgépészet terén.</p>
+            </div>
+          </section>
+          <section id="szolgaltatasaim">
+            <div class="container">
+              <h2>Szolgáltatásaim</h2>
+              <div class="kerteshazak">
+                <img src="images/haz.jpg" alt="Kertes házak vízbekötése">
+                <h3>Családi házak vízbekötése</h3>
+                <p>Az épületet ellátó vízvezeték rendszer kiépítésén nagyon sok múlhat a későbbiekben, alapvetően ezek határozzák meg leendő otthonunk élhetőségét. Biztonságos és energiatakarékos megoldásokat minden esetben összhangba tudom hozni a lakók komofortérzetével, esetleges speciális igényeivel.</p>
+                <p class="gomb"><a href="vizszereles.html">Bővebben...</a></p>
+              </div>
+              <div class="panelhazak">
+                <img src="images/csap.jpg" alt="Panelházak vízbekötése">
+                <h3>Vízvezeték szerelés</h3>
+                <p>A vízvezeték-szerelő olyan mesterember, aki az ivóvíz és szennyvíz továbbítására szolgáló vezetékek telepítésére, karbantartására és javítására specializálódott. Szükség esetén a vízvezeték-szerelő a vízvezetékekben keletkező dugulást elhárítja, a lefolyóvezetékeket gépi úton tisztítja, a lefolyótisztító gépeket és eszközöket tisztítja, karbantartja.</p>
+                <p class="gomb"><a href="vizszereles.html">Bővebben...</a></p>
+              </div>
+            </div>
+          </section>
+          <section id="rolam-mondtak">
+            <div class="container">
+              <h2>Rólam mondták</h2>
+              <div class="velemeny velemeny-1">
+                <img src="images/velemeny1.png" alt="">
+                <p>
+                  <span class="cim">Szőke Annamária</span><br>Házunk felújítása közben, kellett a segítség és ezt egy igazán nagyszerű munkát végző szakembertől kaptuk meg. Mindenkinek csak ajánlani tudom!
+                </p>
+              </div>
+              <div class="velemeny velemeny-2">
+                <img src="images/velemeny2.png" alt="">
+                <p>
+                  <span class="cim">Ságodi László</span><br>Nem győzök csodálkozni. Nagyon szép lett a végeredménny, teljes mértékben elégedett vagyok! Szívesen nézek rá minden nap és büszkén vállalhatom az ismerőseim előtt.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section id="call-to-action">
+            <div class="container">
+              <p class="felhivas">Kérjen ingyenes árajánlatot!</p>
+              <p class="gomb"><a href="arajanlat.html">Online ajánlatkérés</a></p>
+            </div>
+          </section>
         </div>
-        <nav>
-          <ul>
-            <li><a href="index.html">Főoldal</a></li>
-            <li><a href="vizszereles.html">Vízszerelés</a></li>
-            <li><a href="bemutatkozas.html">Bemutatkozás</a></li>
-            <li><a href="arajanlat.html">Árajánlat</a></li>
-            <li><a href="kapcsolat.html">Kapcsolat</a></li>
-          </ul>
-        </nav>
       </div>
-    </header>
-    <div id="main">
-      <section id="nagykep">
+      <footer>
         <div class="container">
-          <div class="doboz">
-            <p class="elso-sor">Vízvezeték szerelőt keres?</p>
-            <p class="masodik-sor">Családi házak vízbekötése akciósan!</p>
+          <div class="copyright">
+            <p>Copyright Minden jog fenntartva <br>Tót Sándor, Vízszerelő Győr</p>
+          </div>
+          <div class="keszitette">
+            <p>Készítette Kiss Szabolcs és Prekopcsák Réka</p>
           </div>
         </div>
-      </section>
-      <section id="elonyeim">
-        <div class="container">
-          <h2>Előnyeim</h2>
-          <div class="ikon ikon-1">
-            <center><img src="images/pipa.png" alt="Ikon"></center>
-            <p>Ingyenes felmérés<br>Győr határain belül</p>
-          </div>
-          <div class="ikon ikon-2">
-            <center><img src="images/jelveny.png" alt="Ikon"></center>
-            <p>1 év garancia<br>a beépített alkatrészekre</p>
-          </div>
-          <div class="ikon ikon-3">
-            <center><img src="images/pajzs.png" alt="Ikon"></center>
-            <p>25 év<br>szakmai tapasztalat</p>
-          </div>
-        </div>
-      </section>
-      <section id="bemutatkozas">
-        <div class="container">
-          <img src="images/profil.jpg" alt="profilkép">
-          <h2>Bemutatkozás</h2>
-          <p>Tót Sándor vállalkozó vagyok.
-            Elsősorban lakáson belüli javítási, szerelési és karbantartási munkákat, illetve felújítási és kivitelezést is vállalok vízszerelés témakörben, Győr és környékén.
-            Több mint 25 éve gépészeti tapasztalattal kiváló eszközparkkal, magasan kvalifikált munkaerőként állok rendelkezésére
-            Jelenleg is számos biztosító társaság ügyfeleinek vészelhárítását végzem, mely megfelelő referenciát jelent leendő partnereim számára az épületgépészet terén.</p>
-        </div>
-      </section>
-      <section id="szolgaltatasaim">
-        <div class="container">
-          <h2>Szolgáltatásaim</h2>
-          <div class="kerteshazak">
-            <img src="images/haz.jpg" alt="Kertes házak vízbekötése">
-            <h3>Családi házak vízbekötése</h3>
-            <p>Az épületet ellátó vízvezeték rendszer kiépítésén nagyon sok múlhat a későbbiekben, alapvetően ezek határozzák meg leendő otthonunk élhetőségét. Biztonságos és energiatakarékos megoldásokat minden esetben összhangba tudom hozni a lakók komofortérzetével, esetleges speciális igényeivel.</p>
-            <p class="gomb"><a href="vizszereles.html">Bővebben...</a></p>
-          </div>
-          <div class="panelhazak">
-            <img src="images/csap.jpg" alt="Panelházak vízbekötése">
-            <h3>Vízvezeték szerelés</h3>
-            <p>A vízvezeték-szerelő olyan mesterember, aki az ivóvíz és szennyvíz továbbítására szolgáló vezetékek telepítésére, karbantartására és javítására specializálódott. Szükség esetén a vízvezeték-szerelő a vízvezetékekben keletkező dugulást elhárítja, a lefolyóvezetékeket gépi úton tisztítja, a lefolyótisztító gépeket és eszközöket tisztítja, karbantartja.</p>
-            <p class="gomb"><a href="vizszereles.html">Bővebben...</a></p>
-          </div>
-        </div>
-      </section>
-      <section id="rolam-mondtak">
-        <div class="container">
-          <h2>Rólam mondták</h2>
-          <div class="velemeny velemeny-1">
-            <img src="images/velemeny1.png" alt="">
-            <p>
-              <span class="cim">Szőke Annamária</span><br>Házunk felújítása közben, kellett a segítség és ezt egy igazán nagyszerű munkát végző szakembertől kaptuk meg. Mindenkinek csak ajánlani tudom!
-            </p>
-          </div>
-          <div class="velemeny velemeny-2">
-            <img src="images/velemeny2.png" alt="">
-            <p>
-              <span class="cim">Ságodi László</span><br>Nem győzök csodálkozni. Nagyon szép lett a végeredménny, teljes mértékben elégedett vagyok! Szívesen nézek rá minden nap és büszkén vállalhatom az ismerőseim előtt.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section id="call-to-action">
-        <div class="container">
-          <p class="felhivas">Kérjen ingyenes árajánlatot!</p>
-          <p class="gomb"><a href="arajanlat.html">Online ajánlatkérés</a></p>
-        </div>
-      </section>
+      </footer>
     </div>
-    <footer>
-      <div class="container">
-        <div class="copyright">
-          <p>Copyright Minden jog fenntartva <br>Tót Sándor, Vízszerelő Győr</p>
-        </div>
-        <div class="keszitette">
-          <p>Készítette Kiss Szabolcs és Prekopcsák Réka</p>
-        </div>
-      </div>
-    </footer>
   </body>
 </html>

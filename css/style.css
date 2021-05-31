@@ -463,9 +463,15 @@ label{
 }
 
 #visszaafooldalra{
-  color:#ffffff;
+  color: #4574ac;
 }
 
 #visszaafooldalra:hover{
-  color: #4574ac;
+  color: #00163a;
+}
+
+#visszajelzes{
+  text-align: center;
+  color: #122d5a;
+  background-color: #fff;
 }

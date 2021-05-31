@@ -21,15 +21,13 @@ function vissza(){
 }
 
 function bekuld(){
-    $("gombok").style.margin="250px auto";
+    $("gombok").style.margin="5% auto";
     $("gombok").style.fontFamily="'Roboto Slab', serif";
-    $("gombok").style.backgroundColor="#00163a";
-    $("gombok").style.color="#fff";
     $("gombok").style.textDecoration="none";
     $("gombok").style.padding="15px 30px";
     $("gombok").style.fontSize="70pt";
     $("gombok").style.borderRadius="10px";
-    $("gombok").innerHTML='<div id="bekuldDiv"><a href="index.html" id="visszaafooldalra"><p id="bekuldesSzoveg">Üzenetét sikeresen rögzítettük és továbbítottuk!</p></a></div>';
+    $("gombok").innerHTML='<p id="visszajelzes">Üzenetét sikeresen rögzítettük és továbbítottuk!</p><br> <div id="bekuldDiv"><a href="index.html" id="visszaafooldalra"><p id="bekuldesSzoveg">Vissza a főoldalra</p></a></div>';
 }
 
 function felbal(){

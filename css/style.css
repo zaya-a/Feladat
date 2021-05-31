@@ -453,7 +453,7 @@ label{
   margin: 20px auto;
 }
 #bekuldesSzoveg{
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
 }
 #beküldDiv{
@@ -461,3 +461,9 @@ label{
   align-items: center;
   vertical-align: center;
 }
+
+#visszaafooldalra{
+  color:#ffffff;
+}
+
+#visszaafooldalra:hover

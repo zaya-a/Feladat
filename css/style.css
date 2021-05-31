@@ -407,7 +407,7 @@ label{
   bottom: 0;
   background-color: #4574ac;
   padding: 10px 0;
-  position: fixed;
+  position: absolute;
   bottom: 0;
 }
 
@@ -466,4 +466,6 @@ label{
   color:#ffffff;
 }
 
-#visszaafooldalra:hover
+#visszaafooldalra:hover{
+  color: #4574ac;
+}

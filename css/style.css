@@ -374,6 +374,9 @@ footer .keszitette p{
 
 #gombok{
   margin: 150px auto;
+  font-family: 'Roboto Slab', serif;
+  text-decoration: none;
+  border-radius: 10px;
 }
 
 #bal{

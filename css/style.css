@@ -38,7 +38,8 @@ header{
   background-color: #4574ac;
   border-bottom: 2px;
   border-style: solid;
-  border-color: #122d5a
+  border-color: #122d5a;
+  width: 100%;
 }
 
 header img{
@@ -78,6 +79,7 @@ nav ul li{
 nav ul li a{
   color: #fbfdff;
   text-decoration: none;
+  display: block;
 }
 
 nav ul li a:hover{
@@ -380,13 +382,11 @@ footer .keszitette p{
 }
 
 #bal{
-  float: left;
   width: 500px;
   height: 333px;
 }
 
 #jobb{
-  float: right;
   width: 500px;
   height: 333px;
 }
@@ -477,4 +477,85 @@ label{
   text-align: center;
   color: #122d5a;
   background-color: #fff;
+}
+.mobile-menu-button{
+  display: none;
+  width: 50px;
+  float: right;
+  border: 1px solid white;
+  padding: 10px;
+}
+#mobile-menu{
+  display: none;
+}
+.mobile-menu-button + input[type="checkbox"]:checked ~ nav li{
+  display: block;
+}
+.mobile-menu-button span{
+  display: block;
+  height: 4px;
+  background-color: white;
+  margin: 0 0 5px 0;
+}
+.mobile-menu-button span:last-of-type{
+ margin: 0;
+}
+@media (max-width:1200px){
+
+  .container{
+    width: 900px;
+  }
+  .page-container{
+    max-width: 900px;
+  }
+  #call-to-action p.felhivas{
+    font-size: 25px ;
+  }
+  #call-to-action .gomb a{
+    font-size: 20px;
+    padding: 10px 5px;
+    font-weight: 500;
+  }
+  .logo{
+    margin:15px 0;
+  }
+  .logo .elso-sor{
+    font-size: 27px;
+    margin-top: 10px;
+  }
+  .logo .masodik-sor{
+    font-size: 20px;
+    margin-left: 140px;
+  }
+  #bal{
+    width: 300px;
+  }
+  
+  #jobb{
+    width: 300px;
+  }
+  #gombok{
+    margin:100px auto;
+  }
+}
+
+@media (max-width:1000px){
+  .container{
+    width: 600px;
+  }
+  .page-container{
+    max-width: 600px;
+  }
+  nav ul li{
+    display: none;
+  }
+  .mobile-menu-button{
+    display: block;
+  }
+  nav li{
+    float: none;
+  }
+  .mobile-menu-button + input[type="checkbox"]:checked ~ nav ul li{
+    display: block;
+  }
 }

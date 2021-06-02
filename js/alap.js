@@ -53,7 +53,7 @@ function formok(){
 function vissza(){
     $("gombok").style.margin="150px auto";
     $("gombok").style.width="1200px";
-    $("gombok").innerHTML='<div id="bal">    <img src="images/arajanlat.jpg" alt="arajanlat" id="balkep">  </div>  <div id="jobb">    <img src="images/hibabejelentes.jpg" alt="hibabejelentes" id="jobbkep">  </div>';
+    $("gombok").innerHTML='<div id="bal" class="col-6">    <img src="images/arajanlat.jpg" alt="arajanlat" id="balkep">  </div>  <div id="jobb" class="col-6">    <img src="images/hibabejelentes.jpg" alt="hibabejelentes" id="jobbkep">  </div>';
     myInit();
 }
 

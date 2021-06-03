@@ -621,8 +621,9 @@ label{
     margin: auto;
   }
   #call-to-action p.felhivas, #call-to-action .gomb a{
-    float: none;
+    float: center;
     align-items: center;
+    width: 200px;
     margin-right: auto;
     margin-left: auto;
   }

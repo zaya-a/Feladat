@@ -623,6 +623,8 @@ label{
   #call-to-action p.felhivas, #call-to-action .gomb a{
     float: none;
     align-items: center;
+    margin-right: auto;
+    margin-left: auto;
   }
   #bemutatkozokep{
     width: 300px;

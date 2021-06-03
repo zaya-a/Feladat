@@ -29,7 +29,7 @@ h3{
   font-size: 30px;
 }
 
-.container{
+.container, .containerr{
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
@@ -315,11 +315,11 @@ footer p{
   color: #ffffff;
 }
 
-footer .copyright{
+footer .copyright, .copyrightt{
   float: left;
 }
 
-footer .copyright p{
+footer .copyright p, .copyrightt p{
   text-align: center;
   font-size: 10px;
   line-height: 14px;
@@ -420,11 +420,11 @@ label{
   color: #ffffff;
 }
 
-.bfooter .copyright{
+.bfooter .copyright, .copyrightt{
   float: left;
 }
 
-.bfooter .copyright p{
+.bfooter .copyright p, .copyrightt p{
   text-align: center;
   font-size: 10px;
   line-height: 14px;
@@ -461,10 +461,12 @@ label{
   font-size: 40px;
   text-align: center;
 }
-#beküldDiv{
+#bekuldDiv{
   display: flex;
   align-items: center;
   vertical-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #visszaafooldalra{
@@ -502,7 +504,7 @@ label{
 }
 @media (max-width:1200px){
   
-  .container{
+  .container, .containerr{
     width: 900px;
   }
   .page-container{
@@ -572,6 +574,12 @@ label{
   .page-container{
     max-width: 600px;
   }
+
+  nav{
+    margin-right: 0px;
+    margin-top: 25px;
+  }
+
   nav ul li{
     display: none;
     float: none;

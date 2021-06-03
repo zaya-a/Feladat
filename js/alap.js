@@ -58,6 +58,7 @@ function vissza(){
 }
 
 function bekuld(){
+    visszaallit()
     if(ellenor()=="true"){
         $("kisszoveg").innerHTML="Kérem minden mezőt töltsön ki!"
         $("kisszoveg").style.color="red";
@@ -68,6 +69,17 @@ function bekuld(){
     $("gombok").style.fontSize="70pt";
     $("gombok").innerHTML='<p id="visszajelzes">Üzenetét sikeresen rögzítettük és továbbítottuk!</p><br> <div id="bekuldDiv"><a href="index.html" id="visszaafooldalra"><p id="bekuldesSzoveg">Vissza a főoldalra</p></a></div>';
     }
+}
+
+function visszaallit(){
+    $("vezeteknev").style.border="1px solid gray";
+    $("keresztnev").style.border="1px solid gray";
+    $("exampleFormControlInput1").style.border="1px solid gray";
+    $("varos").style.border="1px solid gray";
+    $("utca").style.border="1px solid gray";
+    $("cim").style.border="1px solid gray";
+    $("example-tel-input").style.border="1px solid gray";
+    $("exampleTextarea").style.border="1px solid gray";
 }
 
 function ellenor(){

@@ -3,6 +3,7 @@ let szamlalo = 0;
 function $(id){
     return document.getElementById(id);
 }
+
 function init(){
     $("mobile-menu").addEventListener("click",menu,false);
 }

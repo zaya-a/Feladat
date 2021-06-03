@@ -2,6 +2,7 @@
 /* CSS Document */
 
 body{
+  width: 100%;
   background: #ffffff;
   font-family: 'Roboto', sans-serif;
   color: #111111;
@@ -480,7 +481,7 @@ label{
 }
 .mobile-menu-button{
   display: block;
-  width: 50px;
+  width: 30px;
   float: right;
   border: 1px solid white;
   padding: 10px;
@@ -535,6 +536,22 @@ label{
   #gombok{
     margin:100px auto;
   }
+  #elonyeim .ikon-1, #elonyeim .ikon-2, #elonyeim .ikon-3 {
+    float: none;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .main{
+    width: 800px;
+  }
+  #bemutatkozas, #szolgaltatasaim{
+    float: none;
+    margin: auto;
+  }
+  #szolgaltatasaim .container h2{
+    text-align: center;
+    margin-right: 110px;
+  }
 }
 
 @media (max-width:1000px){
@@ -552,7 +569,6 @@ label{
     display: block;
     margin-bottom: 30px;
   }
-  
   #mobile-menu{
     display: block;
     margin-top: 5px;
@@ -560,5 +576,31 @@ label{
   }
   nav ul li{
     margin: 30px 0;
+  }
+  #nagykep p{
+    font-size: 25px;
+    text-align: center;
+  }
+  #nagykep .doboz{
+    width: 400px;
+  }
+  #nagykep{
+    height: 300px;
+    width: 800px;
+    margin: auto;
+  }
+  #elonyeim img{
+    width: 60px;
+  }
+  #szolgaltatasaim .container .kerteshazak, #szolgaltatasaim .container .panelhazak{
+    float: none;
+    margin: auto;
+  }
+  #szolgaltatasaim .container{
+    margin: auto;
+  }
+  #call-to-action p.felhivas, #call-to-action .gomb a{
+    float: none;
+    align-items: center;
   }
 }

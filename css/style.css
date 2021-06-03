@@ -82,7 +82,7 @@ nav ul li a{
   display: block;
 }
 
-nav ul li a:hover{
+nav ul li:hover{
   color: #122d5a;
 }
 
@@ -479,7 +479,7 @@ label{
   background-color: #fff;
 }
 .mobile-menu-button{
-  display: none;
+  display: block;
   width: 50px;
   float: right;
   border: 1px solid white;
@@ -488,9 +488,7 @@ label{
 #mobile-menu{
   display: none;
 }
-.mobile-menu-button + input[type="checkbox"]:checked ~ nav li{
-  display: block;
-}
+
 .mobile-menu-button span{
   display: block;
   height: 4px;
@@ -548,14 +546,19 @@ label{
   }
   nav ul li{
     display: none;
+    float: none;
   }
   .mobile-menu-button{
     display: block;
+    margin-bottom: 30px;
   }
-  nav li{
-    float: none;
-  }
-  .mobile-menu-button + input[type="checkbox"]:checked ~ nav ul li{
+  
+  #mobile-menu{
     display: block;
+    margin-top: 5px;
+    margin-right: 100px;
+  }
+  nav ul li{
+    margin: 30px 0;
   }
 }

@@ -552,9 +552,16 @@ label{
     text-align: center;
     margin-right: 110px;
   }
+  #main #kozep .container{
+    margin: 100px;
+  }
 }
 
 @media (max-width:1000px){
+  #main #kozep .container{
+    margin: 50px;
+    width: 800px;
+  }
   .container{
     width: 600px;
   }
@@ -602,5 +609,26 @@ label{
   #call-to-action p.felhivas, #call-to-action .gomb a{
     float: none;
     align-items: center;
+  }
+  #bemutatkozokep{
+    width: 300px;
+  }
+}
+@media(max-width:850px){
+  #main #kozep .container{
+    width: 700px;
+  }
+  #bemutatkozokep{
+    width: 200px;
+  }
+}
+@media(max-width:790px){
+  #main #kozep .container{
+    width: 600px;
+  }
+}
+@media(max-width:600px){
+  #main #kozep .container{
+    width: 550px;
   }
 }

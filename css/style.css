@@ -594,10 +594,20 @@ label{
   #nagykep .doboz{
     width: 400px;
   }
+  #elonyeim{
+    width: 400px;
+    margin: auto;
+  }
+  #elonyeim .container{
+    width: 400px;
+  }
+  #main{
+    width: 100%;
+  }
   #nagykep{
     height: 300px;
     width: 800px;
-    margin: auto;
+    margin-left: auto;
   }
   #elonyeim img{
     width: 60px;
@@ -615,6 +625,9 @@ label{
   }
   #bemutatkozokep{
     width: 300px;
+  }
+  #szolgaltatasaim .container {
+    width: 400px;
   }
 }
 @media(max-width:850px){

@@ -500,7 +500,7 @@ label{
  margin: 0;
 }
 @media (max-width:1200px){
-
+  
   .container{
     width: 900px;
   }
@@ -553,13 +553,12 @@ label{
     margin-right: 110px;
   }
   #main #kozep .container{
-    margin: 100px;
+    margin: 0 100px;
   }
 }
 
 @media (max-width:1000px){
   #main #kozep .container{
-    margin: 50px;
     width: 800px;
   }
   .container{
